@@ -18,14 +18,8 @@ class TicketTableSeeder extends BaseSeeder {
       return [
           'title'     =>    $faker->sentence(),
           'status'    =>    $faker->randomElement(['open','open','closed']),
-          'user_id'   =>    rand(1, 50)
+          'user_id'   =>    $this->getRandom('User')->id
       ];
     }
-
-    public function run()
-    {
-      $this->createMultiple(50);
-    }
-
-
+    
 }

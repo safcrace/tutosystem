@@ -52,7 +52,7 @@ return [
 	|
 	*/
 
-	'locale' => 'en',
+	'locale' => 'es',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -137,6 +137,12 @@ return [
 		'Illuminate\View\ViewServiceProvider',
 
 		/*
+		 * Vendor Service Providers
+		 */
+
+
+
+		/*
 		 * Application Service Providers...
 		 */
 		'TeachMe\Providers\AppServiceProvider',
@@ -144,6 +150,7 @@ return [
 		'TeachMe\Providers\ConfigServiceProvider',
 		'TeachMe\Providers\EventServiceProvider',
 		'TeachMe\Providers\RouteServiceProvider',
+		'TeachMe\Providers\HtmlServiceProvider',
 
 	],
 
@@ -192,6 +199,9 @@ return [
 		'URL'       => 'Illuminate\Support\Facades\URL',
 		'Validator' => 'Illuminate\Support\Facades\Validator',
 		'View'      => 'Illuminate\Support\Facades\View',
+
+		'Form' => 'Collective\Html\FormFacade',
+        'Html' => 'Collective\Html\HtmlFacade',
 
 	],
 

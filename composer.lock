@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "3a64417bf541e177ce62dba0b7abf809",
+    "hash": "2affb85a0aee273ff7a8004def769cd4",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -588,6 +588,56 @@
             "time": "2015-06-09 13:12:19"
         },
         {
+            "name": "laravelcollective/html",
+            "version": "v5.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/LaravelCollective/html.git",
+                "reference": "c55fda58b1a9a1b58bd04f97e0fb9ebc238a0a94"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/LaravelCollective/html/zipball/c55fda58b1a9a1b58bd04f97e0fb9ebc238a0a94",
+                "reference": "c55fda58b1a9a1b58bd04f97e0fb9ebc238a0a94",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/http": "~5.0",
+                "illuminate/routing": "~5.0",
+                "illuminate/session": "~5.0",
+                "illuminate/support": "~5.0",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "~0.9",
+                "phpunit/phpunit": "~4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Collective\\Html\\": "src/"
+                },
+                "files": [
+                    "src/helpers.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylorotwell@gmail.com"
+                },
+                {
+                    "name": "Adam Engebretson",
+                    "email": "adam@laravelcollective.com"
+                }
+            ],
+            "time": "2015-05-06 14:23:37"
+        },
+        {
             "name": "league/flysystem",
             "version": "1.0.9",
             "source": {
@@ -837,16 +887,16 @@
         },
         {
             "name": "nikic/php-parser",
-            "version": "v1.3.0",
+            "version": "v1.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/PHP-Parser.git",
-                "reference": "dff239267fd1befa1cd40430c9ed12591aa720ca"
+                "reference": "196f177cfefa0f1f7166c0a05d8255889be12418"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/dff239267fd1befa1cd40430c9ed12591aa720ca",
-                "reference": "dff239267fd1befa1cd40430c9ed12591aa720ca",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/196f177cfefa0f1f7166c0a05d8255889be12418",
+                "reference": "196f177cfefa0f1f7166c0a05d8255889be12418",
                 "shasum": ""
             },
             "require": {
@@ -856,7 +906,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.3-dev"
+                    "dev-master": "1.4-dev"
                 }
             },
             "autoload": {
@@ -878,7 +928,7 @@
                 "parser",
                 "php"
             ],
-            "time": "2015-05-02 15:40:40"
+            "time": "2015-07-14 17:31:05"
         },
         {
             "name": "psr/log",
@@ -1163,16 +1213,16 @@
         },
         {
             "name": "symfony/event-dispatcher",
-            "version": "v2.7.1",
+            "version": "v2.7.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/EventDispatcher.git",
-                "reference": "be3c5ff8d503c46768aeb78ce6333051aa6f26d9"
+                "reference": "9310b5f9a87ec2ea75d20fec0b0017c77c66dac3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/EventDispatcher/zipball/be3c5ff8d503c46768aeb78ce6333051aa6f26d9",
-                "reference": "be3c5ff8d503c46768aeb78ce6333051aa6f26d9",
+                "url": "https://api.github.com/repos/symfony/EventDispatcher/zipball/9310b5f9a87ec2ea75d20fec0b0017c77c66dac3",
+                "reference": "9310b5f9a87ec2ea75d20fec0b0017c77c66dac3",
                 "shasum": ""
             },
             "require": {
@@ -1217,20 +1267,20 @@
             ],
             "description": "Symfony EventDispatcher Component",
             "homepage": "https://symfony.com",
-            "time": "2015-06-08 09:37:21"
+            "time": "2015-06-18 19:21:56"
         },
         {
             "name": "symfony/filesystem",
-            "version": "v2.7.1",
+            "version": "v2.7.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Filesystem.git",
-                "reference": "a0d43eb3e17d4f4c6990289805a488a0482a07f3"
+                "reference": "2d7b2ddaf3f548f4292df49a99d19c853d43f0b8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Filesystem/zipball/a0d43eb3e17d4f4c6990289805a488a0482a07f3",
-                "reference": "a0d43eb3e17d4f4c6990289805a488a0482a07f3",
+                "url": "https://api.github.com/repos/symfony/Filesystem/zipball/2d7b2ddaf3f548f4292df49a99d19c853d43f0b8",
+                "reference": "2d7b2ddaf3f548f4292df49a99d19c853d43f0b8",
                 "shasum": ""
             },
             "require": {
@@ -1266,7 +1316,7 @@
             ],
             "description": "Symfony Filesystem Component",
             "homepage": "https://symfony.com",
-            "time": "2015-06-08 09:37:21"
+            "time": "2015-07-09 16:07:40"
         },
         {
             "name": "symfony/finder",
@@ -2815,16 +2865,16 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v2.7.1",
+            "version": "v2.7.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Yaml.git",
-                "reference": "9808e75c609a14f6db02f70fccf4ca4aab53c160"
+                "reference": "4bfbe0ed3909bfddd75b70c094391ec1f142f860"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Yaml/zipball/9808e75c609a14f6db02f70fccf4ca4aab53c160",
-                "reference": "9808e75c609a14f6db02f70fccf4ca4aab53c160",
+                "url": "https://api.github.com/repos/symfony/Yaml/zipball/4bfbe0ed3909bfddd75b70c094391ec1f142f860",
+                "reference": "4bfbe0ed3909bfddd75b70c094391ec1f142f860",
                 "shasum": ""
             },
             "require": {
@@ -2860,7 +2910,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2015-06-10 15:30:22"
+            "time": "2015-07-01 11:25:50"
         }
     ],
     "aliases": [],

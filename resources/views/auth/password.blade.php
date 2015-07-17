@@ -1,4 +1,4 @@
-@extends('app')
+@extends('layout')
 
 @section('content')
 <div class="container-fluid">
@@ -7,11 +7,8 @@
 			<div class="panel panel-default">
 				<div class="panel-heading">Reset Password</div>
 				<div class="panel-body">
-					@if (session('status'))
-						<div class="alert alert-success">
-							{{ session('status') }}
-						</div>
-					@endif
+
+					@include ('partials.errors')
 
 					@if (count($errors) > 0)
 						<div class="alert alert-danger">

@@ -11,6 +11,7 @@
             </h2>
             <h2 class="date-t">
                 <span class="glyphicon glyphicon-time"></span>{{ $ticket->created_at->format('d/m/y h:ia') }}
+                - {{ $ticket->author->name }}
             </h2>
 
             <h4 class="label label-info news">

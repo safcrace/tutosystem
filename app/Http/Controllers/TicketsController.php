@@ -35,9 +35,9 @@ class TicketsController extends Controller {
 		return view('tickets.list', compact('tickets'));
 	}
 
-	public function details($id)
+	public function details($id, Guard $auth)
 	{
-		$ticket = Ticket::findOrFail($id);
+		$ticket = Ticket::findOrFail($id);		
 		return view('tickets.details', compact('ticket'));
 	}
 

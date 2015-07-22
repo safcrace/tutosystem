@@ -4,6 +4,9 @@ namespace TeachMe\Entities;
 
 class TicketComment extends Entity
 {
+
+    protected $fillable = ['comment', 'link'];
+    
     public function ticket()
     {
         return $this->belongsTo(Ticket::getClass());
@@ -13,5 +16,5 @@ class TicketComment extends Entity
     {
         return $this->belongsTo(User::getClass());
     }
-    
+
 }
